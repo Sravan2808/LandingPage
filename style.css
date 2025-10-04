@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     font-family: 'helvetica neue';
+    font-family: 'ip';
 }
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
 }
@@ -15,56 +16,162 @@ html, body {
     src: url(./sf-pro-text_regular.woff2);
 }
 
-.main{
+.main {
     height: 100%;
     width: 100%;
     background-color: black;
 }
 
-.nav{
-    height: 60px;
+.nav {
+    height: 48px;
     width: 100%;
-    background-color: rgb(32, 32, 32);;
+    background-color: rgb(32, 32, 32);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    color: white;
+    color: #a19b9b;
     font-size: 15px;
+
 }
 
-.nav h4{
-    font-weight: 300;
+.nav h4 {
+    font-weight: 400;
     font-family: ip;
     color: #C5C5C6;
 }
 
-.center{
-    height: 100%;
-    width: 100%;
-    /* background-color: red; */
-    background-image: url(https://www.apple.com/v/iphone-17-pro/b/images/overview/welcome/hero_endframe__xdzisdq1ppem_medium.jpg);
-    background-position: center 20%;
-    background-size: cover; 
-    background-repeat: no-repeat;
-    position: relative;
-}
 
-.center button{
-    padding: 10px 25px;
-    border-radius:9999px;
-    background-color: #0076DF;
+.center {
     color: white;
-    font-family: ip;
-    border: none;
-    font-size: 20px;
-    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+    margin-top: 50px;
+    height: 84%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_medium.jpg);
+    background-position: center;
+    background-size: cover;
     position: absolute;
-    bottom: 70px;
-    left: 46%;
-    cursor: pointer;
 }
 
+.center h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
+.center h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #F5F5F7;
+    margin-bottom: 20px;
+}   
 
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    /* background-color: red;  */
+    /* margin-right: 60px; */
+}
 
+.btn1 {
+    padding: 11px 21px;
+    border: none;
+    font-weight: 400;
+    border-radius: 9999px;
+    background-color: #0077ED;
+    color: white;
+    font-size: 17px;
+    /* align-items: center; */
+}
+
+.btn2 {
+    padding: 11px 21px;
+    border: 1px solid #0077ED;
+    font-weight: 400;
+    border-radius: 9999px;
+    background-color: black;
+    color: #0077ED;
+    font-size: 17px;
+    /* align-items: center; */
+}
+
+.space {
+    height: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+.content1 {
+    height: 600px;
+    width: 100%;
+    background-color: #F5F5F7;
+    padding: 50px;
+    text-align: center;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.content1 h1 {
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.content1 h3 {
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+
+.btn3 {
+    padding: 11px 21px;
+    border: 1px solid #0077ED;
+    font-weight: 400;
+    border-radius: 9999px;
+    background-color: white;
+    color: #0077ED;
+    font-size: 17px;
+    /* align-items: center; */
+}
+
+.content2 {
+    height: 650px;
+    width: 100%;
+    background-color: #F5F5F7;
+    padding: 50px;
+    text-align: center;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17/hero_iphone_17__c5vvimu9a20y_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.content2 h1 {
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.content2 h3 {
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+
+.btn3 {
+    padding: 11px 21px;
+    border: 1px solid #0077ED;
+    font-weight: 400;
+    border-radius: 9999px;
+    background-color: white;
+    color: #0077ED;
+    font-size: 17px;
+    /* align-items: center; */
+}
